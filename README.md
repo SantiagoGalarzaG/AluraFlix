@@ -13,7 +13,8 @@ O Aluraflix é um projeto da Alura em parceria com a Oracle Next Education, dese
 * **Menu**: No cabeçalho, há um menu com opções para "Home" e "Novo Vídeo". Ao clicar em "Novo Vídeo", você é direcionado para a página de inserção de novos vídeos. Nesta página, preencha o formulário com título, link da imagem, link do vídeo e descrição. Ao clicar em "Guardar", as atualizações serão refletidas imediatamente no site com os novos vídeos adicionados. Clicando em "Home" ou na logo da Aluraflix, você retorna para a página inicial do site.
 
 ## Imagem
-![Captura de tela 2024-07-12 192616](https://github.com/user-attachments/assets/2b263183-9b07-4cb7-a2f4-bfac3b1af202)
+![Captura de tela 2024-07-12 192616](https://github.com/user-attachments/assets/079035da-2a4e-4550-ad65-63fb3b2e1104)
+
 
 ## Tecnologias utilizadas
 * <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="logo React"/>
