@@ -1,0 +1,39 @@
+.headerContainer {
+  height: 125px;
+  background-color: #000000;
+  border-bottom: 4px solid var(--Red, rgb(255, 0, 0));
+  box-shadow: 0px 5px 29px 0px rgb(255, 0, 0);
+  padding: 0px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.headerLink {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid #ff0000;
+  border-radius: 15px;
+  width: 180.13px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLink:hover {
+  color: var(--Red, rgb(255, 0, 0));
+  border: 2px solid var(--Blue, rgb(255, 0, 0));
+  box-shadow: 0px 0px 12px 4px rgb(255, 0, 0) inset;
+}

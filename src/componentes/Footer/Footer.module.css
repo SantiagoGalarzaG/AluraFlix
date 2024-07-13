@@ -1,0 +1,14 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  background-color: #000000;
+  border-top: 4px solid var(--Red, rgb(255, 0, 0));
+}
+
+.footerContainer p {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}

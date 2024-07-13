@@ -1,0 +1,124 @@
+{
+  "videos": [
+    {
+      "area": "LíderesEmTi",
+      "imagem": "https://i.ytimg.com/vi/p8kfQBldmWM/maxresdefault.jpg",
+      "titulo": "Jomar Silva - DevRel na NVIDIA | Hipsters: Líderes em TI",
+      "descricao": "Como é trabalhar como DevRel no Brasil? Como se desenvolver nessa área? Conheça a trajetória e as dicas de carreira de Jomar Silva",
+      "link": "https://www.youtube.com/embed/p8kfQBldmWM?si=WWMeaZHc4lwqr9WE",
+      "id": "610c"
+    },
+    {
+      "area": "LíderesEmTi",
+      "imagem": "https://i.ytimg.com/vi/g4Z7CWVazCk/maxresdefault.jpg",
+      "titulo": "Paulo Silveira - CEO e Cofundador da Alura | Hipsters: Líderes em TI",
+      "descricao": "🤿 Mergulhe nas reflexões de Paulo Silveira, CEO e cofundador da Alura, sobre o que ele tem aprendido dentro do ecossistema de tecnologia",
+      "link": "https://www.youtube.com/embed/g4Z7CWVazCk?si=xtVSpxPtJ98CeA4W",
+      "id": "713a"
+    },
+    {
+      "area": "LíderesEmTi",
+      "imagem": "https://i.ytimg.com/vi/nlirmaViYzI/maxresdefault.jpg",
+      "titulo": "Alexandre Freire - Diretor de Engenharia no Google | Hipsters: Líderes em TI",
+      "descricao": "Como é trabalhar como DevRel no Brasil? Como se desenvolver nessa área? Conheça a trajetória e as dicas de carreira de Jomar Silva",
+      "link": "https://www.youtube.com/embed/nlirmaViYzI?si=GW8-XWpKbvESWnyF",
+      "id": "12f6"
+    },
+    {
+      "area": "LíderesEmTi",
+      "imagem": "https://i.ytimg.com/vi/Tda70I_rXA4/maxresdefault.jpg",
+      "titulo": "Renato Mesa - Head de Engenharia na Pier | Hipsters: Líderes em TI",
+      "descricao": "Como é trabalhar como DevRel no Brasil? Como se desenvolver nessa área? Conheça a trajetória e as dicas de carreira de Jomar Silva",
+      "link": "https://www.youtube.com/embed/Tda70I_rXA4?si=CxEMTCw1-cHEjccN",
+      "id": "7ab0"
+    },
+    {
+      "area": "LíderesEmTi",
+      "imagem": "https://i.ytimg.com/vi/H37cjNn653c/maxresdefault.jpg",
+      "titulo": "Luciano Holanda - Head de Engenharia de Software no Quinto Andar | Hipsters: Líderes em TI",
+      "descricao": "Quais os desafios para migrar para o trabalho remoto? Como construir uma cultura de aprendizado no time? --- Conheça a trajetória de Luciano Holanda e seus conselhos para quem quer se tornar uma liderança em tecnologia.",
+      "link": "https://www.youtube.com/embed/H37cjNn653c?si=ItHml7D6BDxiAizc",
+      "id": "4bfc"
+    },
+    {
+      "area": "FrontEnd",
+      "imagem": "https://i.ytimg.com/vi/fpth65ts3cw/sddefault.jpg",
+      "titulo": "Guia de carreira Front-end | #HipstersPontoTube",
+      "descricao": "Nova temporada de Hipsters.tube no ar e agora com foco em carreira! 🎊",
+      "link": "https://www.youtube.com/embed/fpth65ts3cw?si=K3co_Y_gYEVQ-FEM",
+      "id": "ae2f"
+    },
+    {
+      "area": "FrontEnd",
+      "imagem": "https://i.ytimg.com/vi/ofuHDFOcgr8/maxresdefault.jpg",
+      "titulo": "Guia de carreira Flutter - #HipstersPontoTube",
+      "descricao": "Segundo episódio da temporada! Com foco em Flutter, o framework de desenvolvimento de aplicativos Mobile da Google, venha conhecer o que é uma pessoa desenvolvedora Flutter, desde o iniciante, com o que é Flutter, até o mais avançado com Flutter Nativo no iOS e Android.",
+      "link": "https://www.youtube.com/embed/ofuHDFOcgr8?si=K62rEW57e-AzPfqF",
+      "id": "00fc"
+    },
+    {
+      "area": "FrontEnd",
+      "imagem": "https://i.ytimg.com/vi/0tS4lUq_7iA/maxresdefault.jpg",
+      "titulo": "Guia de carreira React JS | #HipstersPontoTube",
+      "descricao": "Terceiro episódio da temporada! Com o Guia de Carreira React, aprenda o que é e como funciona essa biblioteca JavaScript, desde os fundamentos com HTML, CSS e JS, até os próximos níveis mais profundos, como React Hooks, Lazy Loading e Rotas, TypeScript, Testes, Redux e muito mais!",
+      "link": "https://www.youtube.com/embed/0tS4lUq_7iA?si=ClIUK9V9mItGB7xT",
+      "id": "9a80"
+    },
+    {
+      "area": "FrontEnd",
+      "imagem": "https://i.ytimg.com/vi/aKtpRRe-AEU/maxresdefault.jpg",
+      "titulo": "Guia de Carreira NODE.JS | #HipstersPontoTube",
+      "descricao": "6º ep. da Temporada! Com o Guia de Carreira Node.JS, aprenda o que é a NODE.JS e quais as vantagens do uso deste framework com a linguagem de programação JAVASCRIPT. Com uma trilha de estudos desde o INICIANTE ao AVANÇADO, veja o que é necessário para sua profissão nessa área de desenvolvimento de SOFTWARE com temáticas como: promises e callbacks, Express.JS, HTTP, APIs, ORM, banco de dados, SQL, TypeScript, Docker, arquitetura de microsserviços, Nest.JS, GraphQL, visão de negócio e produtos nos projetos da empresa, Git, GitHub e muito mais!",
+      "link": "https://www.youtube.com/embed/aKtpRRe-AEU?si=NS1FIifqnNV7GgCe",
+      "id": "d410"
+    },
+    {
+      "area": "FrontEnd",
+      "imagem": "https://i.ytimg.com/vi/mXtDHJRVoJo/maxresdefault.jpg",
+      "titulo": "Guia de Carreira ANGULAR | #HipstersPontoTube",
+      "descricao": "Veja como é a curva de aprendizado dessa tecnologia e o passo a passo para sair do INICIANTE ao AVANÇADO, passando desde os fundamentos com HTML, CSS e JavaScript, até mergulhos mais profundos com POO, RxJS, observable, Angular CLI, comandos, services, módulos, gerenciamento de estado, formulários, testes, GraphQL, Nest.JS, Design System, Angular Material e muito mais!",
+      "link": "https://www.youtube.com/embed/mXtDHJRVoJo?si=v2rZKn26oYwAWvqI",
+      "id": "f548"
+    },
+    {
+      "area": "BackEnd",
+      "imagem": "https://i.ytimg.com/vi/fiPfvylj6rk/hqdefault.jpg",
+      "titulo": "O que faz uma desenvolvedora Back-end? com Juliana Amoasei | #HipstersPontoTube",
+      "descricao": "Afinal, quem trabalha com Back-end faz o que? Com quais outras áreas da tecnologia essa pessoa acaba se relacionando no dia a dia de trabalho e quais os possíveis caminhos nessa carreira? 🤔",
+      "link": "https://www.youtube.com/embed/fiPfvylj6rk?si=C0Nw7Jm3_AioosPS",
+      "id": "07d1"
+    },
+    {
+      "area": "BackEnd",
+      "imagem": "https://i.ytimg.com/vi/trf3ZR_K1nk/sddefault.jpg",
+      "titulo": "O que é GraphQL? com Juliana Amoasei | #HipstersPontoTube",
+      "descricao": "O que é GraphQL? Como ele funciona? Com alguns exemplos incríveis a Juliana Amoasei explicou como trabalhar com essa linguagem.",
+      "link": "https://www.youtube.com/embed/trf3ZR_K1nk?si=nb3xP-lCZOn1pYvW",
+      "id": "b6d5"
+    },
+    {
+      "area": "BackEnd",
+      "imagem": "https://i.ytimg.com/vi/ETohL_o3SEI/maxresdefault.jpg",
+      "titulo": "Guia de Carreira PHP | #HipstersPontoTube",
+      "descricao": "🤿 Mergulhe nas reflexões de Paulo Silveira, CEO e cofundador da Alura, sobre o que ele tem aprendido dentro do ecossistema de tecnologia",
+      "link": "https://www.youtube.com/embed/ETohL_o3SEI?si=7qYDIsFAz1c24RSO",
+      "id": "c12d"
+    },
+    {
+      "area": "BackEnd",
+      "imagem": "https://i.ytimg.com/vi/xrRy3RI3HE4/hqdefault.jpg",
+      "titulo": "Diferença entre Back-End e Front-End com Mario Souto | #HipstersPontoTube",
+      "descricao": "Qual a diferença entre Back-end e Front-end? É possível se especializar nas duas áreas? Como é a rotina desses profissionais e com quais outras áreas da tecnologia acabam se relacionando? ",
+      "link": "https://www.youtube.com/embed/xrRy3RI3HE4?si=Q1_d2kzGIVo9fAD-",
+      "id": "c8fb"
+    },
+    {
+      "area": "BackEnd",
+      "imagem": "https://i.ytimg.com/vi/2hrIwQWx9w4/sddefault.jpg",
+      "titulo": "Ecossistema Node.js #HipstersPontoTube",
+      "descricao": "Recebemos a Juliana Amoasei, uma das nossas instrutoras, para falar sobre as principais bibliotecas e frameworks desse imenso ecossistema do Node.JS. \n",
+      "link": "https://www.youtube.com/embed/2hrIwQWx9w4?si=7Pyf0dy2racdsOqd",
+      "id": "6e15"
+    }
+  ]
+}

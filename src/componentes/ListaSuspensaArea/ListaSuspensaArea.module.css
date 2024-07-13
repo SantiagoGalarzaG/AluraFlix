@@ -1,0 +1,21 @@
+.gContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.gContainer label {
+  display: block;
+}
+
+.gContainer select {
+  background-color: #262626;
+  border: 1px solid lightgray;
+  color: lightgray;
+  font-size: 20px;
+  border-radius: 10px;
+  height: 60px;
+}
+
+.placeholderOption {
+  color: lightgray;
+}
