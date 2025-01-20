@@ -25,7 +25,7 @@ const Inicial = () => {
 
   useEffect(() => {
     async function conectApi() {
-      const videosApi = await fetch('http://localhost:3000/videos') 
+      const videosApi = await fetch('http://localhost:3005/videos') 
       const videosApiData = await videosApi.json()
       setVideos(videosApiData)
     }
@@ -34,7 +34,7 @@ const Inicial = () => {
 
   useEffect(() => {
     if (videos.length > 0) {
-      const lideresEmTiVideo = (videos.filter(video => video.area === "LíderesEmTi"));
+      const lideresEmTiVideo = (videos.filter(video => video.area === "innovación y gestión"));
       const frontEndVideo = (videos.filter(video => video.area === "FrontEnd"));
       const backEndVideo = (videos.filter(video => video.area === "BackEnd"));
 
@@ -51,7 +51,7 @@ const Inicial = () => {
   }
 
   const atualizarAposPut = async (videoAtualizado) => {
-    const response = await fetch('http://localhost:3000/videos');
+    const response = await fetch('http://localhost:3005/videos');
     const updatedVideos = await response.json();
     setVideos(updatedVideos);
     setVideoSelecionado(null);
@@ -60,7 +60,7 @@ const Inicial = () => {
   return (
     <div className={styles.incialBg}>
       <Banner>
-      <Swiper style={{ "--swiper-navigation-color": "#ff0000"}}
+      <Swiper style={{ "--swiper-navigation-color": "#0000ff"}}
           modules={[Autoplay]}
           slidesPerView={1}
           pagination={{ clickable: true }}
@@ -74,21 +74,25 @@ const Inicial = () => {
           ))}
         </Swiper>
       </Banner>
-      <Area titulo="LÍDERES EM TI" tituloColor="#00C86F" videoBorderColor="#00C86F" btnColor="#00C86F">
-          {lideresEmTiVideo.map((video) => (
-            <CardVideo key={video.id} video={video} aoDeletar={atualizarVideoDeletado} aoVideoSelecionado={video=> setVideoSelecionado(video)} />
-          ))}
-      </Area>
+
       <Area titulo="FRONT END" tituloColor={"#6BD1FF"} videoBorderColor={"#6BD1FF"} btnColor={"#6BD1FF"}>
           {frontEndVideo.map((video) => (
             <CardVideo key={video.id} video={video} aoDeletar={atualizarVideoDeletado} aoVideoSelecionado={video=> setVideoSelecionado(video)} />
           ))}
       </Area>
-      <Area titulo="BACK END" tituloColor={"#FF6400"} videoBorderColor={"#FF6400"} btnColor={"#FF6400"}>
+      <Area titulo="BACK END" tituloColor={"#00C86F"} videoBorderColor={"#00C86F"} btnColor={"#00C86F"}>
         {backEndVideo.map((video) => (
           <CardVideo key={video.id} video={video} aoDeletar={atualizarVideoDeletado} aoVideoSelecionado={video=> setVideoSelecionado(video)} />
         ))}
       </Area>
+
+      <Area titulo="innovación y gestión" tituloColor="#FFBA05" videoBorderColor="#FFBA05" btnColor="#FFBA05">
+          {lideresEmTiVideo.map((video) => (
+            <CardVideo key={video.id} video={video} aoDeletar={atualizarVideoDeletado} aoVideoSelecionado={video=> setVideoSelecionado(video)} />
+          ))}
+      </Area>
+      
+
       <ModalEditarVideo videos={videos} video={videoSelecionado} aoFechar={() => setVideoSelecionado(null)} aoAtualizar={atualizarAposPut} />
     </div>
   )

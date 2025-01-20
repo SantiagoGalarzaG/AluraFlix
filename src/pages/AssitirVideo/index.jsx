@@ -7,7 +7,7 @@ const AssistirVideo = () => {
   const [assistirVideo, setAssistirVideo] = useState(null)
 
   useEffect(() => {
-    fetch(`http://localhost:3000/videos/${id}`)
+    fetch(`http://localhost:3005/videos/${id}`)
       .then(resposta => resposta.json())
       .then(dados => {
         setAssistirVideo(dados);

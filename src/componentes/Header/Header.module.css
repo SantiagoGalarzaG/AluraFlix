@@ -1,15 +1,17 @@
 .headerContainer {
   height: 125px;
   background-color: #000000;
-  border-bottom: 4px solid var(--Red, rgb(255, 0, 0));
-  box-shadow: 0px 5px 29px 0px rgb(255, 0, 0);
+  border-bottom: 4px solid  rgb(0, 0, 255);
+  box-shadow: 0px 5px 29px 0px rgb(0, 0, 255);
   padding: 0px 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 2;
 }
-
+.headerLogo{
+  width: 200px;
+}
 .linkContainer {
   display: flex;
   justify-content: center;
@@ -23,7 +25,7 @@
   font-weight: 900;
   text-decoration: none;
   color: #ffffff;
-  border: 2px solid #ff0000;
+  border: 2px solid #0000ff;
   border-radius: 15px;
   width: 180.13px;
   height: 54px;
@@ -33,7 +35,7 @@
 }
 
 .headerLink:hover {
-  color: var(--Red, rgb(255, 0, 0));
-  border: 2px solid var(--Blue, rgb(255, 0, 0));
-  box-shadow: 0px 0px 12px 4px rgb(255, 0, 0) inset;
+  color:  rgb(0, 0, 255);
+  border: 2px solid  rgb(0, 0, 255);
+  box-shadow: 0px 0px 12px 4px rgb(0, 0, 255) inset;
 }

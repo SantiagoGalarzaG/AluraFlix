@@ -8,14 +8,13 @@ const CardVideo = ({video, aoDeletar, aoVideoSelecionado, videoBorderColor, btnC
   async function excluirVideo(id) {
     let deleteVideo
     try {
-        deleteVideo = await fetch(`http://localhost:3000/videos/${id}`, {
+        deleteVideo = await fetch(`http://localhost:3005/videos/${id}`, {
         method: "DELETE",
         headers: {
           "Content-type": "application/json"
         }
       })
       aoDeletar(id)
-      // alert('Vídeo excluído com sucesso!')
     } catch(error) {
       alert('Erro ao excluir produto')
     }
@@ -32,12 +31,12 @@ const CardVideo = ({video, aoDeletar, aoVideoSelecionado, videoBorderColor, btnC
     <div className={styles.gcontainer}  >
         <Link to={`video/${video.id}`}>
           <div className={styles.imgContainer} style={{ borderColor: videoBorderColor, boxShadow: `0 0 13px ${videoBorderColor}`}} >
-          <img src={video.imagem} alt={video.area} />
+          <img src={video.img} alt={video.area} />
           </div>
         </Link>
         <div className={styles.btnContainer} style={{ boxShadow: `0 0 13px ${btnColor}` }}>
-          <div className={styles.btn} onClick={() => excluirVideo(video.id)}><img src={excluirBtn} alt='Botão de excluir' />EXCLUIR</div>
-          <div className={styles.btn} onClick={() => rolarPraCimaESelecionarVideo(video)}><img src={editarBtn} alt='Botão de editar'/>EDITAR</div>
+          <div className={styles.btn} onClick={() => excluirVideo(video.id)}><img src={excluirBtn} alt='botón eliminar' />Eliminar</div>
+          <div className={styles.btn} onClick={() => rolarPraCimaESelecionarVideo(video)}><img src={editarBtn} alt='botón editar'/>Editar</div>
         </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import CampoTexto from "../../componentes/CampoTexto"
-import FormDescricao from "../../componentes/FormDescricao"
+import FormDescrip from "../../componentes/FormDescrip"
 import ListaSuspensaArea from "../../componentes/ListaSuspensaArea"
 import styles from "./NovoVideo.module.css"
 import FormBotao from "../../componentes/FormBotao"
@@ -8,22 +8,22 @@ import FormBotao from "../../componentes/FormBotao"
 const NovoVideo = () => {
   const [tituloPost, setTituloPost] = useState()
   const [areaPost, setAreaPost] = useState()
-  const [imagemPost, setImagemPost] = useState()
+  const [imagenPost, setImagenPost] = useState()
   const [videoPost, setVideoPost] = useState()
-  const [descricaoPost, setDescricaoPost] = useState()
+  const [descripPost, setDescripPost] = useState()
 
-  async function novoVideoPost(area, imagem, titulo, descricao, link) {
+  async function novoVideoPost(area, img, titulo, descrip, link) {
     try {
-      const videoPostApi = await fetch('http://localhost:3000/videos', {
+      const videoPostApi = await fetch('http://localhost:3005/videos', {
         method: "POST",
         headers: {
           "Content-type": "application/json"
         },
         body: JSON.stringify({
           area: area,
-          imagem: imagem,
+          img: img,
           titulo: titulo,
-          descricao: descricao,
+          descrip: descrip,
           link: link
         })
 
@@ -42,17 +42,17 @@ const NovoVideo = () => {
 
   const aoGuardar = async (evento) => {
     evento.preventDefault()
-    await novoVideoPost(areaPost, imagemPost, tituloPost, descricaoPost, videoPost)
+    await novoVideoPost(areaPost, imagenPost, tituloPost, descripPost, videoPost)
     setAreaPost('')
-    setImagemPost('')
+    setImagenPost('')
     setTituloPost('')
-    setDescricaoPost('')
+    setDescripPost('')
     setVideoPost('')
-    alert("Video salvo com sucesso")
+    alert("Vídeo guardado correctamente")
   }
 
   const categoria = [
-    "LíderesEmTi",
+    "innovación y gestión",
     "FrontEnd",
     "BackEnd"
   ]
@@ -60,16 +60,16 @@ const NovoVideo = () => {
   return (
     <div className={styles.gContainer}>
       <section className={styles.gContainerTitulo}>
-        <h1>NOVO VÍDEO</h1>
-        <p>COMPLETE O FORMULÁRIO PARA CRIAR UM NOVO CARD DE VÍDEO</p>
+        <h1>NUEVO VIDEO</h1>
+        <p>COMPLETA EL FORMULARIO PARA CREAR UNA NUEVA TARJETA DE VIDEO</p>
       </section>
       <section className={styles.gContainerForm}>
-        <h2>Criar Card</h2>
+        <h2>Crear tarjeta</h2>
         <form onSubmit={aoGuardar}>
           <div>
             <CampoTexto
               label="Título"
-              placeholder="Digite um título"
+              placeholder="Introduce un título"
               valor={tituloPost}
               obrigatorio={true}
               aoAlterado={valor => setTituloPost(valor)} 
@@ -85,27 +85,27 @@ const NovoVideo = () => {
           </div>
           <div>
             <CampoTexto
-              label="Imagem"
-              placeholder="Digite o link da imagem"
-              valor={imagemPost}
+              label="Imagen"
+              placeholder="Ingresa al enlace de la imagen"
+              valor={imagenPost}
               obrigatorio={true}
-              aoAlterado={valor => setImagemPost(valor)} 
+              aoAlterado={valor => setImagenPost(valor)} 
             />
 
             <CampoTexto
               label="Vídeo"
-              placeholder="Digite o link do vídeo"
+              placeholder="Ingrese el enlace del vídeo"
               valor={videoPost}
               obrigatorio={true}
               aoAlterado={valor => setVideoPost(valor)} 
             />
           </div>
-          <FormDescricao
-            label="Descrição"
-            placeholder="Sobre o que é esse vídeo?"
-            valor={descricaoPost}
+          <FormDescrip
+            label="Descripcion"
+            placeholder="¿De qué se trata este vídeo?"
+            valor={descripPost}
             obrigatorio={true}
-            aoAlterado={valor => setDescricaoPost(valor)}
+            aoAlterado={valor => setDescripPost(valor)}
           />
           <div>
             <FormBotao type="submit" nome="guardar"></FormBotao>

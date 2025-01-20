@@ -9,7 +9,7 @@ const NaoEncontrado = () => {
         <h1 className={styles.text}>AluraFlix</h1>
       </div>
       <div className={styles.imageWrapper}>
-        <img className={styles.img} src={notFoundImg} alt="Imagem de página não encontrada" />
+        <img className={styles.img} src={notFoundImg} alt="Imagen de página no encontrada" />
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const ListaSuspensaArea = (props) => {
         {props.label}
       </label>
       <select width={props.widthLSArea} required={props.obrigatorio} value={props.valor} onChange={evento => props.aoAlterado(evento.target.value)} style={props.estiloCorCampo}>
-      <option value="" className={styles.placeholderOption}>Selecione uma categoria</option>
+      <option value="" className={styles.placeholderOption}>Selecione una categoria</option>
         {props.itens.map(item => <option key={item}>{item}</option>)}
       </select>
     </div>

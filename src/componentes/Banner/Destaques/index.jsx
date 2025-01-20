@@ -6,7 +6,7 @@ import youtubeIcon from './youtube.png'
 const Destaques = ({ video }) => {
 
   const container = {
-    background: `url(${video.imagem})`,
+    background: `url(${video.img})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
@@ -18,7 +18,7 @@ const Destaques = ({ video }) => {
   }
 
   const imgContainer = {
-    background: `url(${video.imagem})`,
+    background: `url(${video.img})`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-reapt',
     width: '600px',
@@ -37,7 +37,7 @@ const Destaques = ({ video }) => {
       return {
         boxShadow: 'inset 5px 0px 29px 0px #FF6400',
       }
-    } else if (video.area === "LíderesEmTi") {
+    } else if (video.area === "innovación y gestión") {
       return {
         boxShadow: 'inset 5px 0px 29px 0px #00C86F',
       }
@@ -67,12 +67,12 @@ const Destaques = ({ video }) => {
     };
   } else if (video.area === "BackEnd") {
     return {
-      backgroundColor: "#FF6400",
+      backgroundColor: "#00C86F",
       ...estilosComuns
     };
-  } else if (video.area === "LíderesEmTi") {
+  } else if (video.area === "innovación y gestión") {
     return {
-      backgroundColor: "#00C86F",
+      backgroundColor: "#FFBA05",
       ...estilosComuns
     };
   } else {
@@ -96,13 +96,13 @@ return (
     <div className={styles.infoContainer}>
       <h1 style={estiloAreaDestaque(video)}>{formatarArea(video.area)}</h1>
       <h1>{video.titulo}</h1>
-      <p>{video.descricao}</p>
+      <p>{video.descrip}</p>
     </div>
 
     <Link style={{zIndex: 1}} to={`video/${video.id}`}>
 
       <div className={styles.sombraImgVideo} style={estiloCombinadoImg}>
-        <img src={youtubeIcon} alt="Ícone do Youtube" />
+        <img src={youtubeIcon} alt="Icono de Youtube" />
       </div>
 
     </Link>

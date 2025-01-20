@@ -5,7 +5,10 @@
   align-items: center;
   height: 125px;
   background-color: #000000;
-  border-top: 4px solid var(--Red, rgb(255, 0, 0));
+  border-top: 4px solid  rgb(0, 0, 255);
+}
+.footerLogo{
+  width: 250px;
 }
 
 .footerContainer p {
